@@ -1,0 +1,17 @@
+#root, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
